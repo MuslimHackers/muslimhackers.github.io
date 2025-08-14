@@ -1,0 +1,70 @@
+*{
+
+}
+body{
+    
+    display: flex;
+    height: 100%;
+    margin:0;
+    font-family: Avenir;
+    background-color: beige;
+    @media screen and (max-width: 768px) {background: url(../img/Alhambra_North_Tower.jpeg) no-repeat center center; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;}
+    #towerofpower{
+        width: 30%;
+        background: url(../img/Alhambra_North_Tower.jpeg) no-repeat center center; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;
+        @media screen and (max-width: 768px) {display:none;}
+    }
+    #hackers{
+        width:100%;
+        display: flex; flex-flow: column; align-items: center;
+        justify-items: center;
+        padding: auto auto auto 3%;
+        text-align: center;
+        h1,h2,h3{
+            box-shadow: rgb(64, 68, 251) 6px 7px 0px 0px;
+            border:1px solid #000;
+            background-color: beige;
+            padding:1%;            
+            font-weight: 300;}
+            
+        #nhn{display: none;}
+        #mobilelogo{display:none}
+        #joinus{
+            background-color: beige; border: 2px solid black; border-radius: 6px; color: black; padding: 1%; box-shadow: 1px 3px 3px #bdb1b1; text-decoration: none;
+            &:hover{transform: translateX(-.25rem)
+                translateY(-.1rem);
+                transition-duration:.5s;
+                box-shadow: 6px 4px 3px #bdb1b1; }
+        }
+    
+        @media screen and (max-width: 768px) {
+            align-items: center;
+
+            #mobilelogo{display:block; width:20%;}
+            #logo{display:none;}
+            img{background-color: beige;}
+            h1,h2,h3{background-color:beige;
+                margin:2%;
+                padding:1%;
+                border:.1px solid black; 
+                border-radius:6px;
+                box-shadow: rgba(0, 34, 253, 0.354) 6px 3.5px 0px 0px;
+                #nhn{display:none;}
+            }
+            #meetings{
+                display: flex; flex-flow: column nowrap; align-items: center;
+                #joinus{box-shadow: 0;}
+                
+            }
+            h3#nhn{display:block; width:fit-content; text-align:center;}
+            
+    }}
+}
