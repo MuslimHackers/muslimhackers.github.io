@@ -1,0 +1,26 @@
+Scratch.txt
+
+h3{
+            background-color: white; border:3px solid black; border-radius:6px;color:black; padding: 1%; box-shadow:1px 3px 3px #000; width:fit-content;text-decoration: none;
+        }
+
+
+
++    font-weight: 300;
+
++  body #hackers #meetings #SECC {
+    +    text-decoration: none;
+    +    text-decoration-style: dotted;
+    +    color: #000;
+    +  }
+
+
++    height:100%;
+
++        #joinus{background-color: white; border:3px solid black; border-radius:6px;color:black; padding: 1%; box-shadow:1px 3px 3px #bdb1b1; text-decoration: none;}
+
++ #SECC{text-decoration: none; text-decoration-style: dotted; color:#000}
+
++    <div id=towerofpower style="display: flex; flex-flow:column;">
++            <h3>Jobs</h3>
++    </div>
